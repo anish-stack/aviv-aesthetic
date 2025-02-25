@@ -82,7 +82,7 @@ const Doctors = () => {
           </div>
         </div>
       </div>
-      <div className='grid lg:grid-cols-3 grid-cols-1 gap-10 bg-extraColor px-10 pb-14'>
+      <div className='grid lg:grid-cols-4 grid-cols-1 gap-10 bg-extraColor px-10 pb-14'>
         <div className='bg-white rounded-md p-4 shadow-lg'>
           <div>
             <Image
@@ -154,6 +154,25 @@ const Doctors = () => {
             technologies, ensuring exceptional results for both routine checkups
             and complex procedures..
           </p>
+        </div>
+
+        <div className='bg-white rounded-md p-4 shadow-lg'>
+          <div>
+            <Image
+              src={'/images/doc.jpg'}
+              alt='doctor-img'
+              height={0}
+              width={0}
+              sizes='100vw'
+              className='h-auto w-full rounded-md '
+            />
+          </div>
+          <div className='mt-2'>
+            <h2 className='text-xl font-semibold'>Dr. Sipika Malhotra</h2>
+            <h2 className='text-lg mt-2'>MBBS MD(Cosmetology)</h2>
+          </div>
+          <p className='mt-2 '>
+            Dr. Sipika Malhotra, an MBBS graduate from SGT Medical College, is certified in Facial Aesthetics (IAAM) and skilled in medical cosmetology procedures like chemical peels, laser treatments, microneedling, and HydraFacials. She has clinical experience as a Junior Resident at PGIMS, Rohtak, and is registered with the Haryana Medical Council.          </p>
         </div>
       </div>
     </>
